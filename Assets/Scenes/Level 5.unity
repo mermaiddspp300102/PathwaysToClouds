@@ -5672,8 +5672,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e591621d4b021b4dbae1aaac737aa39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 519420031}
+  subject: {fileID: 1878389181}
 --- !u!212 &1330337810
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8297,6 +8297,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &1878389181 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8780157571550228074, guid: aabbc68cd20ec10448a27e06aefca8c3, type: 3}
+  m_PrefabInstance: {fileID: 1878389177}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1887392871
 GameObject:
   m_ObjectHideFlags: 0

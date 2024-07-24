@@ -140,7 +140,8 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1.12
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 8d2139bf12daf1b4cb1a788176ccf11c, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -264,7 +265,7 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: E:/key Pathways to Clouds/user.keystore
+  AndroidKeystoreName: E:/Pathways to Clouds/key Pathways to Clouds/user.keystore
   AndroidKeyaliasName: disappointedmermaid
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
