@@ -326,7 +326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundSource: {fileID: 1716331585672783138}
   sfxSource: {fileID: 7058415022926225906}
-  background: {fileID: 8300000, guid: 19802c7173ed46d47a6ad8446c43fd84, type: 3}
+  background: {fileID: 8300000, guid: 71c05f908aa2daf45b9d3777827156e7, type: 3}
   death: {fileID: 0}
   finish: {fileID: 0}
   attack: {fileID: 0}

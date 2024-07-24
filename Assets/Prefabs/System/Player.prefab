@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6706894905690330227}
   - component: {fileID: 1683531382358638316}
   - component: {fileID: 7700596635890035543}
+  - component: {fileID: 133364869956947737}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -120,6 +121,7 @@ MonoBehaviour:
   jumpForce: 12
   dustEffectPrefab: {fileID: 8022897783959000834, guid: cd81f45e8c96bfc408ec1224a8174059, type: 3}
   dustOffset: {x: 0, y: 0}
+  gem: {fileID: 0}
 --- !u!50 &6706894905690330227
 Rigidbody2D:
   serializedVersion: 4
@@ -213,3 +215,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &133364869956947737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706522550966039170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e382e0778f8e7ff408a8cdbbc1a7cef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blueAnim: {fileID: 22100000, guid: 9122630f624eb204583b3b9bf69564b2, type: 2}
+  whiteAnim: {fileID: 22100000, guid: 81459658830ba7b449711d5f232eb118, type: 2}
+  pinkAnim: {fileID: 22100000, guid: 6fe4aa9246e4ca44889a2d62dda039d2, type: 2}

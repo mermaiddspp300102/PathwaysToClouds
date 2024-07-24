@@ -11,9 +11,9 @@ public class SceneManagement : MonoBehaviour
     {
         Application.Quit();
     }
-    public void custom()
+    public void skin()
     {
-        //SceneManager.LoadScene("Custom Menu");
+        SceneManager.LoadScene("Skin");
 
     }
     public void MainMenu()
